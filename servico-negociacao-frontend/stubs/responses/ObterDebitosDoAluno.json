@@ -1,0 +1,85 @@
+{
+   "aluno": {
+      "nome":"Rafaela de Souza da Silva",
+      "curso":"Direito",
+      "turno":"Noite",
+      "campus":"Estoril",
+      "periodo":"2019/1",
+      "foto": "https://randomuser.me/api/portraits/women/37.jpg",
+      "perfil": 1
+   },
+   "debitos":[
+      {
+         "id" : 1,
+         "periodo":"2018/02",
+         "parcela":4,
+         "matricula":11871155,
+         "curso":"Direito",
+         "valorOriginal":935.00,
+         "mora":10.89,
+         "multa":5.893,
+         "total":952.89,
+         "vencimento":"08/10/2018"
+      },
+      {
+         "id" : 2,
+         "periodo":"2018/02",
+         "parcela":5,
+         "matricula":11871155,
+         "curso":"Direito",
+         "valorOriginal":935.00,
+         "mora":9.34,
+         "multa":5.893,
+         "total":949.89,
+         "vencimento":"08/10/2018"
+      },
+	  {
+         "id" : 3,
+         "periodo":"2018/02",
+         "parcela":6,
+         "matricula":11871155,
+         "curso":"Direito",
+         "valorOriginal":935.00,
+         "mora":17.27,
+         "multa":5.893,
+         "total":949.45,
+         "vencimento":"08/10/2018"
+      },
+      {
+         "id" : 4,
+         "periodo":"2018/01",
+         "parcela":1,
+         "matricula":11871155,
+         "curso":"Direito",
+         "valorOriginal":1034.65,
+         "mora":15.14,
+         "multa":5.893,
+         "total":1056.60,
+         "vencimento":"08/10/2018"
+      },
+	  {
+      "id" : 5,
+         "periodo":"2018/01",
+         "parcela":2,
+         "matricula":11871155,
+         "curso":"Direito",
+         "valorOriginal":1034.65,
+         "mora":13.20,
+         "multa":5.893,
+         "total":1054.15,
+         "vencimento":"08/10/2018"
+      },
+      {
+         "id" : 6,
+         "periodo":"2018/01",
+         "parcela":3,
+         "matricula":11871155,
+         "curso":"Direito",
+         "valorOriginal":1051.63,
+         "mora":9.77,
+         "multa":5.893,
+         "total":952.89,
+         "vencimento":"08/10/2018"
+      }
+   ]
+}

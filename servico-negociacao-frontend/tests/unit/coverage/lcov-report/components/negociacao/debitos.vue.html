@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for components/negociacao/debitos.vue</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\index.html">All files</a> / <a href="index.html">components/negociacao</a> debitos.vue
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/2</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/13</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">&lt;template&gt;
+  &lt;v-card&gt;
+    &lt;v-card-title class="subheading"&gt;Débitos do Aluno&lt;/v-card-title&gt;
+    &lt;v-data-table
+      v-model="debitosSelecionados"
+      :headers="headers"
+      :items="debitos"
+      item-key="id"
+      select-all
+      class="elevation-1"
+      hide-actions
+    &gt;
+      &lt;template v-slot:items="props"&gt;
+        &lt;td&gt;
+          &lt;v-checkbox
+            v-model="props.selected"
+            primary
+            hide-details
+          &gt;&lt;/v-checkbox&gt;
+        &lt;/td&gt;
+        &lt;td class="text-xs-right"&gt;{{ props.item.periodo }}&lt;/td&gt;
+        &lt;td class="text-xs-right"&gt;{{ props.item.parcela }}&lt;/td&gt;
+        &lt;td class="text-xs-right"&gt;{{ props.item.matricula }}&lt;/td&gt;
+        &lt;td class="text-xs-right"&gt;{{ props.item.curso }}&lt;/td&gt;
+        &lt;td class="text-xs-right"&gt;{{ props.item.valorOriginal }}&lt;/td&gt;
+        &lt;td class="text-xs-right"&gt;{{ props.item.mora }}&lt;/td&gt;
+        &lt;td class="text-xs-right"&gt;{{ props.item.multa }}&lt;/td&gt;
+        &lt;td class="text-xs-right"&gt;{{ props.item.total }}&lt;/td&gt;
+        &lt;td class="text-xs-right"&gt;{{ props.item.vencimento }}&lt;/td&gt;
+      &lt;/template&gt;
+    &lt;/v-data-table&gt;
+    &lt;div class="caption label"&gt;Total de Titulos: {{debitos.length}}&lt;/div&gt;
+  &lt;/v-card&gt;
+&lt;/template&gt;
+&nbsp;
+&nbsp;
+&lt;script lang="ts"&gt;
+<span class="cstat-no" title="statement not covered" >import {</span>
+  Component,
+  Vue,
+  Prop,
+  Watch,
+} from 'vue-property-decorator';
+<span class="cstat-no" title="statement not covered" >import { StoreNamespaces } from '../../store/namespaces';</span>
+<span class="cstat-no" title="statement not covered" >import { namespace } from 'vuex-class';</span>
+<span class="cstat-no" title="statement not covered" >import { DebitoGetterTypes } from '@/store/debito/getters';</span>
+import { Debito } from '@/model/Debito';
+import { warn } from 'vue-class-component/lib/util';
+<span class="cstat-no" title="statement not covered" >import { DebitoActionTypes } from '@/store/debito/actions';</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >const debitoNamespace = namespace(StoreNamespaces.DEBITO);</span>
+&nbsp;
+<span class="fstat-no" title="function not covered" >@Component({</span>
+  components: {
+  },
+})
+&nbsp;
+<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" >export default class Debitos extends Vue {</span></span>
+  @debitoNamespace.Getter(DebitoGetterTypes.DEBITOS_ALUNO)
+<span class="cstat-no" title="statement not covered" >  public debitos?: Debito[];</span>
+&nbsp;
+  @debitoNamespace.Action(DebitoActionTypes.SET_DEBITOS_SELECIONADOS)
+<span class="cstat-no" title="statement not covered" >  public setDebitosSelecionados!: (debitosSelecionados: Debito[]) =&gt; Promise&lt;void&gt;;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  public debitosSelecionados: Debito[] = [];</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  public headers: any = [</span>
+          { text: 'Período', value: 'periodo' },
+          { text: 'Parcela', value: 'parcela' },
+          { text: 'Matricula', value: 'matricula' },
+          { text: 'Curso', value: 'curso' },
+          { text: 'Valor', value: 'valorOriginal' },
+          { text: 'Mora', value: 'mora' },
+          { text: 'Multa', value: 'multa' },
+          { text: 'Valor Total', value: 'total' },
+          { text: 'Vencimento', value: 'vencimento' },
+        ];
+&nbsp;
+  @Watch('debitosSelecionados')
+<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >  public aoMudarSelecao(debitosSelecionados: Debito[]) {</span></span>
+<span class="cstat-no" title="statement not covered" >    this.setDebitosSelecionados(debitosSelecionados);</span>
+  }
+}
+&lt;/script&gt;
+&nbsp;
+&lt;style&gt;
+.label{
+  padding: 20px;
+}
+table.v-table tbody td{
+  height: 35px;
+  font-size: 12px;
+  padding: 0 3px;
+}
+&lt;/style&gt;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Fri May 03 2019 16:59:14 GMT-0300 (GMT-03:00)
+</div>
+</div>
+<script src="..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+- request:
+    url: ^/api/ObterCampanhas
+  headers:
+    authorization: ([0-9]+)
+  response:
+    headers:
+      content-type: application/json
+    file: ../responses/ObterCampanhas.json

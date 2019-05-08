@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for components/negociacao/simulacaoAcordo.vue</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\index.html">All files</a> / <a href="index.html">components/negociacao</a> simulacaoAcordo.vue
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/11</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">&lt;template&gt;
+  &lt;v-card color="blue white--text"&gt;
+      &lt;v-container&gt;
+          &lt;v-layout row wrap class="valor"&gt;
+              &lt;v-flex xs12&gt;
+                &lt;div class="headline"&gt;Simulação do acordo&lt;/div&gt;
+              &lt;/v-flex&gt;
+          &lt;/v-layout&gt;
+          &lt;v-layout row wrap class="valor"&gt;
+            &lt;v-flex xs12&gt;
+                  &lt;div class="body-2"&gt;Dívida Total&lt;/div&gt;
+                  &lt;div&gt;R$ {{dividaTotal}}&lt;/div&gt;
+              &lt;/v-flex&gt;
+          &lt;/v-layout&gt;
+           &lt;v-divider dark&gt;&lt;/v-divider&gt;
+           &lt;v-layout row wrap class="valor"&gt;
+            &lt;v-flex xs12&gt;
+                  &lt;div class="body-2"&gt;Total Selecionado&lt;/div&gt;
+                  &lt;div&gt;R$ {{totalSelecionado}}&lt;/div&gt;
+              &lt;/v-flex&gt;
+          &lt;/v-layout&gt;
+           &lt;v-divider dark&gt;&lt;/v-divider&gt;
+          &lt;v-layout row wrap class="valor"&gt;
+              &lt;v-flex xs12&gt;
+                  &lt;div class="body-2"&gt;Campanha Selecionada&lt;/div&gt;
+                  &lt;div id="campanhaSelecionada"&gt;{{campanhaSelecionada.id}} - {{campanhaSelecionada.descricao}}&lt;/div&gt;
+              &lt;/v-flex&gt;
+          &lt;/v-layout&gt;
+      &lt;/v-container&gt;
+  &lt;/v-card&gt;
+&lt;/template&gt;
+&nbsp;
+&lt;script lang="ts"&gt;
+<span class="cstat-no" title="statement not covered" >import {</span>
+  Component,
+  Vue,
+  Prop,
+} from 'vue-property-decorator';
+<span class="cstat-no" title="statement not covered" >import { DebitoGetterTypes } from '@/store/debito/getters';</span>
+<span class="cstat-no" title="statement not covered" >import { CampanhaGetterTypes } from '@/store/campanha/getters';</span>
+<span class="cstat-no" title="statement not covered" >import { StoreNamespaces } from '@/store/namespaces';</span>
+<span class="cstat-no" title="statement not covered" >import { namespace } from 'vuex-class';</span>
+import { Campanha } from '@/model/Campanha';
+&nbsp;
+<span class="cstat-no" title="statement not covered" >const debitoNamespace = namespace(StoreNamespaces.DEBITO);</span>
+<span class="cstat-no" title="statement not covered" >const campanhaNamespace = namespace(StoreNamespaces.CAMPANHA);</span>
+&nbsp;
+@Component({
+  components: {
+  },
+})
+<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" >export default class SimulacaoAcordo extends Vue {</span></span>
+  @debitoNamespace.Getter(DebitoGetterTypes.TOTAL_SELECIONADO)
+<span class="cstat-no" title="statement not covered" >  public totalSelecionado?: number;</span>
+&nbsp;
+  @debitoNamespace.Getter(DebitoGetterTypes.DIVIDA_TOTAL)
+<span class="cstat-no" title="statement not covered" >  public dividaTotal?: number;</span>
+&nbsp;
+  @campanhaNamespace.Getter(CampanhaGetterTypes.CAMPANHA_SELECIONADA)
+<span class="cstat-no" title="statement not covered" >  public campanhaSelecionada?: Campanha;</span>
+}
+&lt;/script&gt;
+&lt;style&gt;
+  .valor {
+    padding: 20px 0;
+  }
+&lt;/style&gt;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Fri May 03 2019 16:59:14 GMT-0300 (GMT-03:00)
+</div>
+</div>
+<script src="..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+[
+    {
+        "id" : 1,
+        "descricao":"Decola",
+        "maximoParcelas":4,
+        "voltaDescontos":true,
+        "descontoJuros":1,
+        "descontoMulta":1
+    },
+    {            
+        "id" : 2,
+        "descricao":"Decola 2",
+        "maximoParcelas":6,
+        "voltaDescontos":true,
+        "descontoJuros":0.8,
+        "descontoMulta":0.8
+    },
+    {            
+        "id" : 3,
+        "descricao":"Campanha XPTO 2019",
+        "maximoParcelas": 5, 
+        "voltaDescontos":false,
+        "descontoJuros":1,
+        "descontoMulta":0.6
+    },
+    {            
+        "id" : 4,
+        "descricao":"Campanha Retenção",
+        "maximoParcelas":12,
+        "voltaDescontos":true,
+        "descontoJuros":1,
+        "descontoMulta":1
+    }]
